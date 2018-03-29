@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    background-color: #5A6DD7;
+    width: 400px;
+    height: 400px;
+}
+
+.human {
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    transition: all 0.5s linear;  
+}
+
+.head {
+    background-color: #ffffff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 170px;
+    transition: all 0.5s linear;
+}
+
+.leftHand_partOne {
+    width: 20px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 155px;
+    transform: rotate(32deg);
+    transition: all 0.5s linear;
+}
+
+.leftHand_partTwo {
+    width: 20px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 125px;
+    left: 142px;
+    transition: all 0.5s linear;
+}
+
+.body {
+    background-color: #ffffff;
+    width: 65px;
+    height: 100px;
+    position: absolute;
+    top: 82px;
+    left: 167px; 
+    border-radius: 10px; 
+    transition: all 0.5s linear;
+}
+
+.rightHand_partOne {
+    width: 20px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 80px;
+    left: 225px;
+    transform: rotate(-32deg);
+    transition: all 0.5s linear;
+}
+
+.rightHand_partTwo {
+    width: 20px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 125px;
+    left: 237px;
+    transition: all 0.5s linear;
+}
+
+.leftLeg_partOne {
+    width: 30px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 170px;
+    left: 167px;
+    transition: all 0.5s linear;
+}
+
+.leftLeg_partTwo {
+    width: 30px;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 240px;
+    left: 167px;
+    transition: all 0.5s linear;
+}
+
+.rightLeg_partOne {
+    width: 30px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 170px;
+    left: 202px;
+    transition: all 0.5s linear;
+}
+
+.rightLeg_partTwo {
+    width: 30px;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 240px;
+    left: 202px;
+    transition: all 0.5s linear;
+}
+
+.human:hover 
+    .head {
+        top: 5px;
+    }
+    
+.human:hover 
+    .body {
+        top: 74px;
+    }
+
+.human:hover 
+    .leftHand_partOne {
+        transform: rotate(90deg);
+        top: 54px;
+    }
+
+.human:hover 
+    .leftHand_partTwo {
+        transform: rotate(35deg);
+        top: 74px;
+        left: 120px;
+    }
+
+.human:hover 
+    .rightHand_partOne {
+        transform: rotate(-90deg);
+        top: 54px;
+        left: 228px;
+    }
+
+.human:hover 
+    .rightHand_partTwo {
+        transform: rotate(-35deg);
+        top: 72px;
+        left: 260px;
+    }
+
+.human:hover
+    .leftLeg_partOne {
+        transform: rotate(97deg);
+        top: 115px;
+        left: 133px;
+    }
+
+.human:hover
+    .leftLeg_partTwo {
+        transform: rotate(35deg);
+        top: 140px;
+        left: 90px;
+    }
+
+.human:hover
+    .rightLeg_partOne {
+        transform: rotate(-97deg);
+        top: 115px;
+        left: 240px;
+    }
+
+.human:hover
+    .rightLeg_partTwo {
+        transform: rotate(-35deg);
+        top: 140px;
+        left: 283px;
+    }
+
+
+@media (min-width: 400px) {
+	
+}
+
+@media (min-width: 768px) {
+    
+}
