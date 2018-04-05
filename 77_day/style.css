@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    width: 400px;
+    height: 400px; 
+    background-color: #684372;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    animation: circle 1.5s infinite ease-in-out;
+}
+
+@keyframes circle {
+    0% {
+        transform: translate(-150px, 0); 
+        
+    }
+    50% {
+        transform: translate(150px, 0);
+        
+    }
+    100% {
+        transform: translate(-150px, 0);
+        
+    }
+}
+@media (min-width: 400px) {
+	
+}
+
+@media (min-width: 768px) {
+    
+}
