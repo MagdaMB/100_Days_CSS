@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    width: 400px;
+    height: 400px; 
+    background-color: #ECB81C;
+    display: flex;
+    justify-content: center; 
+}
+
+.triangle1 {
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 45px solid red;
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 45px solid red;
+}
+
+
+
+@media (min-width: 400px) {
+	
+}
+
+@media (min-width: 768px) {
+    
+}

@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    background: aqua;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 40px; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+ol {
+    margin: 10px 0 0 40px;
+}
+
+li {
+    padding: 2px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+@media (min-width: 400px) {
+	
+}
+
+@media (min-width: 768px) {
+    
+}
