@@ -11,8 +11,8 @@ body {
 }
 
 .block {
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
     background-color: #E2313D;
     background: linear-gradient(to top right, #C7101B, #E2313D, #F7515D, #FE7A85);
     display: flex;
@@ -45,7 +45,7 @@ body {
 
 
 @media (min-width: 400px) {
-	
+	.block {width: 400px; height: 400px;}
 }
 
 @media (min-width: 768px) {

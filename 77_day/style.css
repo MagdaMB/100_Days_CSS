@@ -10,8 +10,8 @@ body {
 }
 
 .box {
-    width: 400px;
-    height: 400px; 
+    width: 320px;
+    height: 320px; 
     background-color: #684372;
     display: flex;
     align-items: center;
@@ -27,20 +27,35 @@ body {
 
 @keyframes circle {
     0% {
-        transform: translate(-150px, 0); 
+        transform: translate(-120px, 0); 
         
     }
     50% {
-        transform: translate(150px, 0);
+        transform: translate(120px, 0);
         
     }
     100% {
-        transform: translate(-150px, 0);
+        transform: translate(-120px, 0);
         
     }
 }
 @media (min-width: 400px) {
-	
+    .box {width: 400px; height: 400px;}
+    
+    @keyframes circle {
+        0% {
+            transform: translate(-150px, 0); 
+            
+        }
+        50% {
+            transform: translate(150px, 0);
+            
+        }
+        100% {
+            transform: translate(-150px, 0);
+            
+        }
+    }
 }
 
 @media (min-width: 768px) {

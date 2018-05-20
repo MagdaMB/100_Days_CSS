@@ -11,8 +11,8 @@ body {
 
 .box {
     background-color: #F146C0;
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
     position: relative;
 }
 
@@ -23,8 +23,8 @@ body {
     box-shadow: 5px 5px 5px #EAEAEA;
     background-color: #ffffff;
     position: absolute;
-    top: 150px;
-    left: 150px; 
+    top: 110px;
+    left: 110px; 
     animation: firstCircle 3s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -46,8 +46,8 @@ body {
     background-color: #ffffff;
     box-shadow: 4px 4px 4px #EAEAEA;
     position: absolute;
-    top: 165px;
-    left: 165px; 
+    top: 125px;
+    left: 125px; 
     animation: secondCircle 3s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -69,8 +69,8 @@ body {
     background-color: #ffffff;
     box-shadow: 3px 3px 3px #D5D5D5;
     position: absolute;
-    top: 180px;
-    left: 180px; 
+    top: 140px;
+    left: 140px; 
     animation: thirdCircle 3s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 @keyframes thirdCircle {
@@ -86,7 +86,10 @@ body {
 }
 
 @media (min-width: 400px) {
-	
+    .box {width: 400px; height: 400px;}
+    .firstCircle {position: absolute; top: 150px; left: 150px;}
+    .secondCircle {position: absolute; top: 165px; left: 165px;}
+    .thirdCircle {position: absolute; top: 180px; left: 180px;}
 }
 
 @media (min-width: 768px) {

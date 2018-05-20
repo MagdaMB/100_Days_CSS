@@ -11,8 +11,8 @@ body {
 }
 
 .box {
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
     background-color: #0A79F9;
     background: linear-gradient(to top right, #0152C5, #0A79F9, #49A3FE, #55DDEC);
     display: flex;
@@ -93,7 +93,7 @@ body {
 
 
 @media (min-width: 400px) {
-	
+	.box {width: 400px; height: 400px}
 }
 
 @media (min-width: 768px) {

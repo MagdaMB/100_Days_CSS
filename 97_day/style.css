@@ -11,14 +11,14 @@ body {
 
 .box {
     background-color: #5A6DD7;
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
 }
 
 .human {
     position: relative;
     top: 0;
-    left: 0;
+    left: -40px;
     cursor: pointer;
     transition: all 0.5s linear;  
 }
@@ -202,7 +202,8 @@ body {
 
 
 @media (min-width: 400px) {
-	
+    .box {width: 400px; height: 400px;}
+    .human {position: relative; top: 40px; left: 0;} 
 }
 
 @media (min-width: 768px) {

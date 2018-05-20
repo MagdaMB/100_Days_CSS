@@ -12,8 +12,8 @@ body {
 
 .box {
     background: linear-gradient(to top right, #9E4707, #D87C2A, #F6A24D);
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,7 +159,7 @@ body {
 }
 
 @media (min-width: 400px) {
-	
+	.box {width: 400px; height: 400px;}
 }
 
 @media (min-width: 768px) {

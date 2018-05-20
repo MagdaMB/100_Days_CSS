@@ -10,8 +10,8 @@ body {
 }
 
 .box {
-    width: 400px;
-    height: 400px; 
+    width: 320px;
+    height: 320px; 
     background-color: #6CCCFA;
     background: linear-gradient(to top right, #6CCCFA, #0883CC, #066CAE);
     display: flex;
@@ -20,11 +20,11 @@ body {
 }
 
 .box__button {
-    padding: 15px 30px;
+    padding: 10px 25px;
     color: grey;
     background-color: #ffffff;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 14px;
     border: none;
     margin: 15px 100px;
     cursor: pointer;
@@ -39,7 +39,8 @@ body {
 
 
 @media (min-width: 400px) {
-	
+    .box {width: 400px; height: 400px;}
+    .box__button {font-size: 17px; padding: 15px 30px;}
 }
 
 @media (min-width: 768px) {

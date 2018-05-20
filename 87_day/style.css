@@ -10,8 +10,8 @@ body {
 }
 
 .box {
-    width: 400px;
-    height: 400px; 
+    width: 320px;
+    height: 320px; 
     background-color: #ECB81C;
     display: flex;
     justify-content: center; 
@@ -36,7 +36,7 @@ body {
 
 
 @media (min-width: 400px) {
-	
+	.box {width: 400px; height: 400px;}
 }
 
 @media (min-width: 768px) {

@@ -11,8 +11,8 @@ body {
 
 .box {
     background-color: #5BD9F8;
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
     position: relative;
 }
 
@@ -64,7 +64,7 @@ body {
     }
 }
 @media (min-width: 400px) {
-	
+	.box {width: 400px; height: 400px}
 }
 
 @media (min-width: 768px) {
