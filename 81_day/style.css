@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 60px;
+}
+
+.box__sky {
+    background: #2E3F80;
+    height: 70%;
+    width: 100%;
+    position: relative;
+}
+
+.box__sky--circle {
+    background: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: moved 2.5s infinite linear;
+}
+
+.box__ground {
+    background: #231B18;
+    height: 30%;
+    width: 100%;
+}
+
+@keyframes moved {
+    0% {
+        transform: translate(300px,30px)
+    }
+    20% {
+        transform: translate(200px,173px)
+    }
+    50% {
+        transform: translate(120px,130px)
+    }
+    80% {
+        transform: translate(40px,173px)
+    }
+    100% {
+        transform: translate(-30px,130px)
+    }
+}
+
+@media (min-width: 400px) {
+    .box {width: 400px; height: 400px}
+    
+    @keyframes moved {
+        0% {
+            transform: translate(400px,30px)
+        }
+        20% {
+            transform: translate(280px,230px)
+        }
+        50% {
+            transform: translate(200px,150px)
+        }
+        80% {
+            transform: translate(100px,230px)
+        }
+        100% {
+            transform: translate(-30px,150px)
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    
+}
